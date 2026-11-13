@@ -1,0 +1,13 @@
+{
+  "name": "marp-theme-kinari",
+  "version": "0.1.0",
+  "private": true,
+  "description": "kinari — a Marp theme of unbleached paper in light and sumi-dyed paper in dark",
+  "license": "MIT",
+  "packageManager": "pnpm@11.9.0",
+  "scripts": {
+    "check": "node scripts/check.mjs kinari.css",
+    "render": "node scripts/render.mjs",
+    "preview": "node scripts/render.mjs --preview"
+  }
+}
